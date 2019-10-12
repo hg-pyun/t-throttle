@@ -1,0 +1,35 @@
+{
+  "name": "t-throttle",
+  "version": "0.0.1",
+  "description": "Tiny throttle",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hg-pyun/t-throttle.git"
+  },
+  "author": "Haegul Pyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hg-pyun/t-throttle/issues"
+  },
+  "homepage": "https://github.com/hg-pyun/t-throttle#readme",
+  "devDependencies": {
+    "husky": "^3.0.8",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
