@@ -1,6 +1,10 @@
 # t-throttle
 
-The tiny throttle function
+![npm](https://img.shields.io/npm/v/t-throttle)
+![npm](https://img.shields.io/npm/dt/t-throttle)
+![NPM](https://img.shields.io/npm/l/t-throttle)
+
+The tiny throttle function.
 
 ## Installation
 
