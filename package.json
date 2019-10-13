@@ -1,6 +1,6 @@
 {
   "name": "t-throttle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tiny throttle",
   "main": "./lib/index.js",
   "keywords": [
